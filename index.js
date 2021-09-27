@@ -11,3 +11,16 @@ http
   .listen(3000, () => {
     console.log("Servidor ON");
   });
+
+
+  const montarse = async () =>{
+      console.log('Montarse en Bicicleta');
+  }
+
+  const pedalear = () =>{
+      console.log('Pedalear la bici');
+  }
+
+montarse().then(()=>{
+    pedalear()
+});
